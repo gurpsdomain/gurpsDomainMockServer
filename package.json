@@ -1,0 +1,28 @@
+{
+  "name": "gurps-domain-mock-server",
+  "version": "1.0.0",
+  "description": "Very simple server that mocks gurpsDomain",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurpsdomain/gurpsDomainMockServer.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "gurps"
+  ],
+  "author": "meron brouwer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurpsdomain/gurpsDomainMockServer/issues"
+  },
+  "homepage": "https://github.com/gurpsdomain/gurpsDomainMockServer#readme"
+}

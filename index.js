@@ -59,6 +59,27 @@ const sheet = {
         "fatiguePoints": 10,
         "basicSpeed": 5.0,
         "basicMove": 4,
+        "maxLoad": {
+            "none": 24,
+            "light": 48,
+            "medium": 72,
+            "heavy": 144,
+            "xHeavy": 240
+        },
+        "move": {
+            "none": 8,
+            "light": 7,
+            "medium": 6,
+            "heavy": 5,
+            "xHeavy": 4
+        },
+        "dodge": {
+            "none": 8,
+            "light": 7,
+            "medium": 6,
+            "heavy": 5,
+            "xHeavy": 4
+        },
         "damageSwinging": "1d",
         "damageThrusting": "1d-2",
         "frightCheck": 12
@@ -247,6 +268,7 @@ const sheet = {
         }
     ]
 }
+
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
